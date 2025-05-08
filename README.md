@@ -1,6 +1,6 @@
 # 🌳 Tents and Trees
 
-## 🧩 Overview
+## 🔎 Overview
 This project is a Prolog-based solver for the classic logic puzzle **“Tents and Trees”**, implemented for the Logic Programming course (2023–2024). The game involves placing tents next to trees on a grid while respecting a set of constraints:
 
 - Each **tree** must be matched to exactly one **adjacent tent** (up, down, left, or right).

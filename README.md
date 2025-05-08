@@ -1,4 +1,4 @@
-# 🌳 Tents and Trees — Logic Puzzle Solver in Prolog
+# 🌳 Tents and Trees
 
 ## 🧩 Overview
 
@@ -12,7 +12,7 @@ This implementation allows solving specific puzzles by applying strategies and l
 
 ---
 
-## ▶️ How to Run
+## 🧪 Testing
 
 To run and test this project, you need to have [SWI-Prolog](https://www.swi-prolog.org/Download.html) installed on your system.
 
@@ -29,15 +29,3 @@ puzzle(6-13, P), resolve(P), sol(6-13, S), P == S.
 puzzle(6-14, P), resolve(P), sol(6-14, S), P == S.
 puzzle(8-1, P), resolve(P), sol(8-1, S), P == S.
 ```
-
-Each of these tests verifies whether your `resolve/1` predicate correctly solves the respective puzzle, by comparing it to the expected solution stored in `sol/2`.
-
----
-
-## 🛠 Dependencies
-
-- SWI-Prolog (recommended version: latest stable)
-- The puzzle definitions should be available via the included `puzzlesAcampar.pl` file, which is loaded in `Project.pl` using:
-  ```prolog
-  :- ['puzzlesAcampar.pl'].
-  ```

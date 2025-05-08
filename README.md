@@ -1,7 +1,6 @@
 # 🌳 Tents and Trees
 
 ## 🧩 Overview
-
 This project is a Prolog-based solver for the classic logic puzzle **“Tents and Trees”**, implemented for the Logic Programming course (2023–2024). The game involves placing tents next to trees on a grid while respecting a set of constraints:
 
 - Each **tree** must be matched to exactly one **adjacent tent** (up, down, left, or right).
@@ -10,14 +9,10 @@ This project is a Prolog-based solver for the classic logic puzzle **“Tents an
 
 This implementation allows solving specific puzzles by applying strategies and logic reasoning, along with fallback to **trial and error** when necessary.
 
----
-
 ## 🧪 Testing
-
 To run and test this project, you need to have [SWI-Prolog](https://www.swi-prolog.org/Download.html) installed on your system.
 
 ### Load the project in SWI-Prolog
-
 ```bash
 swipl Project.pl
 ```
